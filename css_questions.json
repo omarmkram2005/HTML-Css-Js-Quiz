@@ -1,0 +1,500 @@
+{
+  "fileName": "CSS",
+  "questions": [
+    {
+      "question": "What is CSS used for?",
+      "options": [
+        "Styling HTML elements",
+        "Creating interactive web pages",
+        "Writing JavaScript code",
+        "Structuring web content"
+      ],
+      "answer": "Styling HTML elements"
+    },
+    {
+      "question": "How do you link an external CSS file to an HTML document?",
+      "options": [
+        "<link rel=\"stylesheet\" href=\"style.css\">",
+        "<script src=\"style.css\"></script>",
+        "<style src=\"style.css\"></style>",
+        "<css file=\"style.css\"></css>"
+      ],
+      "answer": "<link rel=\"stylesheet\" href=\"style.css\">"
+    },
+    {
+      "question": "What are the three main types of CSS selectors?",
+      "options": [
+        "Element, class, and ID",
+        "Tag, attribute, and style",
+        "Head, body, and div",
+        "Inline, internal, and external"
+      ],
+      "answer": "Element, class, and ID"
+    },
+    {
+      "question": "What is the box model in CSS?",
+      "options": [
+        "A way to style text",
+        "A way to create rounded corners",
+        "A model that describes the layout of an element",
+        "A model for creating responsive designs"
+      ],
+      "answer": "A model that describes the layout of an element"
+    },
+    {
+      "question": "What is the difference between inline, block, and inline-block display?",
+      "options": [
+        "Inline elements are displayed horizontally, block elements vertically, and inline-block elements are a mix of both.",
+        "Inline elements are displayed vertically, block elements horizontally, and inline-block elements are a mix of both.",
+        "Inline elements are displayed horizontally, block elements horizontally, and inline-block elements are vertically.",
+        "Inline elements are displayed vertically, block elements vertically, and inline-block elements are horizontally."
+      ],
+      "answer": "Inline elements are displayed horizontally, block elements vertically, and inline-block elements are a mix of both."
+    },
+    {
+      "question": "Which CSS property is used to change the font size of an element?",
+      "options": ["font-style", "font-weight", "font-size", "font-family"],
+      "answer": "font-size"
+    },
+    {
+      "question": "Which CSS property is used to set the background color of an element?",
+      "options": ["background-color", "color", "bg-color", "background"],
+      "answer": "background-color"
+    },
+    {
+      "question": "Which CSS property is used to add padding around an element?",
+      "options": ["margin", "border", "padding", "space"],
+      "answer": "padding"
+    },
+    {
+      "question": "Which CSS property is used to align text within an element?",
+      "options": ["text-align", "align-text", "text-position", "align"],
+      "answer": "text-align"
+    },
+    {
+      "question": "Which CSS property is used to create rounded corners?",
+      "options": [
+        "border-radius",
+        "corner-radius",
+        "rounded-corners",
+        "curve-corners"
+      ],
+      "answer": "border-radius"
+    },
+    {
+      "question": "What is the CSS Flexbox model used for?",
+      "options": [
+        "Creating responsive layouts",
+        "Styling text",
+        "Adding animations",
+        "Creating complex tables"
+      ],
+      "answer": "Creating responsive layouts"
+    },
+    {
+      "question": "What is the CSS Grid Layout model used for?",
+      "options": [
+        "Creating responsive layouts",
+        "Styling text",
+        "Adding animations",
+        "Creating complex tables"
+      ],
+      "answer": "Creating responsive layouts"
+    },
+    {
+      "question": "What is the difference between absolute and relative positioning?",
+      "options": [
+        "Absolute positioning positions an element relative to its parent, while relative positioning positions it relative to its normal position.",
+        "Relative positioning positions an element relative to its parent, while absolute positioning positions it relative to its normal position.",
+        "Absolute positioning positions an element relative to the viewport, while relative positioning positions it relative to its parent.",
+        "Relative positioning positions an element relative to the viewport, while absolute positioning positions it relative to its parent."
+      ],
+      "answer": "Absolute positioning positions an element relative to its parent, while relative positioning positions it relative to its normal position."
+    },
+    {
+      "question": "What is the z-index property used for?",
+      "options": [
+        "To control the stacking order of elements",
+        "To set the opacity of elements",
+        "To create rounded corners",
+        "To add shadows to elements"
+      ],
+      "answer": "To control the stacking order of elements"
+    },
+    {
+      "question": "What is the difference between margin and padding?",
+      "options": [
+        "Margin adds space outside an element, while padding adds space inside an element.",
+        "Padding adds space outside an element, while margin adds space inside an element.",
+        "Margin and padding both add space outside an element.",
+        "Margin and padding both add space inside an element."
+      ],
+      "answer": "Margin adds space outside an element, while padding adds space inside an element."
+    },
+    {
+      "question": "What is a CSS selector?",
+      "options": [
+        "A keyword used to style elements",
+        "A rule for specifying which HTML elements to style",
+        "A property used to change the appearance of elements",
+        "A value used to set the style of elements"
+      ],
+      "answer": "A rule for specifying which HTML elements to style"
+    },
+    {
+      "question": "What is the specificity of a CSS selector?",
+      "options": [
+        "The order in which the selector is defined",
+        "The importance of the selector",
+        "The number of selectors in the rule",
+        "The combination of selectors, IDs, classes, and elements"
+      ],
+      "answer": "The combination of selectors, IDs, classes, and elements"
+    },
+    {
+      "question": "What is the cascade in CSS?",
+      "options": [
+        "The order in which CSS rules are applied",
+        "The way CSS rules are inherited",
+        "The way CSS rules are combined",
+        "The way CSS rules are prioritized"
+      ],
+      "answer": "The order in which CSS rules are applied"
+    },
+    {
+      "question": "What is the difference between a class selector and an ID selector?",
+      "options": [
+        "Class selectors can be used multiple times, while ID selectors can only be used once.",
+        "ID selectors can be used multiple times, while class selectors can only be used once.",
+        "Class selectors are more specific than ID selectors.",
+        "ID selectors are more specific than class selectors."
+      ],
+      "answer": "Class selectors can be used multiple times, while ID selectors can only be used once."
+    },
+    {
+      "question": "What is the `*` selector used for?",
+      "options": [
+        "To select all elements on the page",
+        "To select the first element of a certain type",
+        "To select the last element of a certain type",
+        "To select elements with a specific attribute"
+      ],
+      "answer": "To select all elements on the page"
+    },
+    {
+      "question": "What is a CSS pseudo-class?",
+      "options": [
+        "A keyword added to a selector to style elements based on their state",
+        "A keyword added to a selector to style specific parts of an element",
+        "A keyword added to a selector to create animations",
+        "A keyword added to a selector to create responsive designs"
+      ],
+      "answer": "A keyword added to a selector to style elements based on their state"
+    },
+    {
+      "question": "What is a CSS pseudo-element?",
+      "options": [
+        "A keyword added to a selector to style elements based on their state",
+        "A keyword added to a selector to style specific parts of an element",
+        "A keyword added to a selector to create animations",
+        "A keyword added to a selector to create responsive designs"
+      ],
+      "answer": "A keyword added to a selector to style specific parts of an element"
+    },
+    {
+      "question": "Which pseudo-class is used to style an element when the mouse hovers over it?",
+      "options": [":hover", ":active", ":focus", ":visited"],
+      "answer": ":hover"
+    },
+    {
+      "question": "Which pseudo-element is used to style the first letter of an element?",
+      "options": ["::first-letter", "::first-child", "::before", "::after"],
+      "answer": "::first-letter"
+    },
+    {
+      "question": "Which pseudo-element is used to style the first line of an element?",
+      "options": ["::first-line", "::first-child", "::before", "::after"],
+      "answer": "::first-line"
+    },
+    {
+      "question": "What is a CSS preprocessor?",
+      "options": [
+        "A tool that compiles CSS code into HTML",
+        "A tool that minifies CSS code",
+        "A tool that adds dynamic features to CSS",
+        "A tool that extends the syntax of CSS"
+      ],
+      "answer": "A tool that extends the syntax of CSS"
+    },
+    {
+      "question": "What is the CSS `flex-wrap` property used for?",
+      "options": [
+        "To wrap flex items to the next line when there's not enough space in the container.",
+        "To distribute extra space between flex items.",
+        "To align flex items along the main axis.",
+        "To align flex items along the cross axis."
+      ],
+      "answer": "To wrap flex items to the next line when there's not enough space in the container."
+    },
+    {
+      "question": "What is the CSS `flex-direction` property used for?",
+      "options": [
+        "To set the main axis of a flex container to be row or column.",
+        "To distribute extra space between flex items.",
+        "To align flex items along the main axis.",
+        "To align flex items along the cross axis."
+      ],
+      "answer": "To set the main axis of a flex container to be row or column."
+    },
+    {
+      "question": "What is the CSS `flex-basis` property used for?",
+      "options": [
+        "To set the initial size of a flex item.",
+        "To distribute extra space between flex items.",
+        "To align flex items along the main axis.",
+        "To align flex items along the cross axis."
+      ],
+      "answer": "To set the initial size of a flex item."
+    },
+    {
+      "question": "What is the CSS `flex-grow` property used for?",
+      "options": [
+        "To specify how much a flex item should grow relative to other flex items.",
+        "To distribute extra space between flex items.",
+        "To align flex items along the main axis.",
+        "To align flex items along the cross axis."
+      ],
+      "answer": "To specify how much a flex item should grow relative to other flex items."
+    },
+    {
+      "question": "What is the CSS `flex-shrink` property used for?",
+      "options": [
+        "To specify how much a flex item should shrink relative to other flex items.",
+        "To distribute extra space between flex items.",
+        "To align flex items along the main axis.",
+        "To align flex items along the cross axis."
+      ],
+      "answer": "To specify how much a flex item should shrink relative to other flex items."
+    },
+    {
+      "question": "What is the CSS `flex` shorthand property used for?",
+      "options": [
+        "To combine the `flex-grow`, `flex-shrink`, and `flex-basis` properties into a single declaration.",
+        "To distribute extra space between flex items.",
+        "To align flex items along the main axis.",
+        "To align flex items along the cross axis."
+      ],
+      "answer": "To combine the `flex-grow`, `flex-shrink`, and `flex-basis` properties into a single declaration."
+    },
+    {
+      "question": "What is the CSS `order` property used for?",
+      "options": [
+        "To change the order of flex items within the flex container.",
+        "To distribute extra space between flex items.",
+        "To align flex items along the main axis.",
+        "To align flex items along the cross axis."
+      ],
+      "answer": "To change the order of flex items within the flex container."
+    },
+    {
+      "question": "What is the CSS `align-self` property used for?",
+      "options": [
+        "To override the alignment of a single flex item.",
+        "To align flex items along the main axis.",
+        "To align flex items along the cross axis.",
+        "To distribute extra space between flex items."
+      ],
+      "answer": "To override the alignment of a single flex item."
+    },
+    {
+      "question": "What is the CSS `justify-self` property used for?",
+      "options": [
+        "To override the justification of a single flex item.",
+        "To align flex items along the main axis.",
+        "To align flex items along the cross axis.",
+        "To distribute extra space between flex items."
+      ],
+      "answer": "To override the justification of a single flex item."
+    },
+    {
+      "question": "What is the CSS `gap` shorthand property used for?",
+      "options": [
+        "To set the gap between rows and columns in a CSS Grid layout.",
+        "To set the gap between flex items in a CSS Flexbox layout.",
+        "Both of the above.",
+        "None of the above."
+      ],
+      "answer": "Both of the above."
+    },
+    {
+      "question": "What is the CSS `z-index` property used for?",
+      "options": [
+        "To control the stacking order of elements.",
+        "To set the opacity of elements.",
+        "To create rounded corners.",
+        "To add shadows to elements."
+      ],
+      "answer": "To control the stacking order of elements."
+    },
+    {
+      "question": "What is the difference between `margin` and `padding`?",
+      "options": [
+        "Margin adds space outside an element, while padding adds space inside an element.",
+        "Padding adds space outside an element, while margin adds space inside an element.",
+        "Margin and padding both add space outside an element.",
+        "Margin and padding both add space inside an element."
+      ],
+      "answer": "Margin adds space outside an element, while padding adds space inside an element."
+    },
+    {
+      "question": "What is a CSS selector?",
+      "options": [
+        "A keyword used to style elements",
+        "A rule for specifying which HTML elements to style",
+        "A property used to change the appearance of elements",
+        "A value used to set the style of elements"
+      ],
+      "answer": "A rule for specifying which HTML elements to style"
+    },
+    {
+      "question": "What is the specificity of a CSS selector?",
+      "options": [
+        "The order in which the selector is defined",
+        "The importance of the selector",
+        "The number of selectors in the rule",
+        "The combination of selectors, IDs, classes, and elements"
+      ],
+      "answer": "The combination of selectors, IDs, classes, and elements"
+    },
+    {
+      "question": "What is the cascade in CSS?",
+      "options": [
+        "The order in which CSS rules are applied",
+        "The way CSS rules are inherited",
+        "The way CSS rules are combined",
+        "The way CSS rules are prioritized"
+      ],
+      "answer": "The order in which CSS rules are applied"
+    },
+    {
+      "question": "What is the difference between a class selector and an ID selector?",
+      "options": [
+        "Class selectors can be used multiple times, while ID selectors can only be used once.",
+        "ID selectors can be used multiple times, while class selectors can only be used once.",
+        "Class selectors are more specific than ID selectors.",
+        "ID selectors are more specific than class selectors."
+      ],
+      "answer": "Class selectors can be used multiple times, while ID selectors can only be used once."
+    },
+    {
+      "question": "What is the `*` selector used for?",
+      "options": [
+        "To select all elements on the page",
+        "To select the first element of a certain type",
+        "To select the last element of a certain type",
+        "To select elements with a specific attribute"
+      ],
+      "answer": "To select all elements on the page"
+    },
+    {
+      "question": "What is a CSS pseudo-class?",
+      "options": [
+        "A keyword added to a selector to style elements based on their state",
+        "A keyword added to a selector to style specific parts of an element",
+        "A keyword added to a selector to create animations",
+        "A keyword added to a selector to create responsive designs"
+      ],
+      "answer": "A keyword added to a selector to style elements based on their state"
+    },
+    {
+      "question": "What is a CSS pseudo-element?",
+      "options": [
+        "A keyword added to a selector to style elements based on their state",
+        "A keyword added to a selector to style specific parts of an element",
+        "A keyword added to a selector to create animations",
+        "A keyword added to a selector to create responsive designs"
+      ],
+      "answer": "A keyword added to a selector to style specific parts of an element"
+    },
+    {
+      "question": "Which pseudo-class is used to style an element when the mouse hovers over it?",
+      "options": [":hover", ":active", ":focus", ":visited"],
+      "answer": ":hover"
+    },
+    {
+      "question": "Which pseudo-element is used to style the first letter of an element?",
+      "options": ["::first-letter", "::first-child", "::before", "::after"],
+      "answer": "::first-letter"
+    },
+    {
+      "question": "Which pseudo-element is used to style the first line of an element?",
+      "options": ["::first-line", "::first-child", "::before", "::after"],
+      "answer": "::first-line"
+    },
+    {
+      "question": "What is a CSS preprocessor?",
+      "options": [
+        "A tool that compiles CSS code into HTML",
+        "A tool that minifies CSS code",
+        "A tool that adds dynamic features to CSS",
+        "A tool that extends the syntax of CSS"
+      ],
+      "answer": "A tool that extends the syntax of CSS"
+    },
+    {
+      "question": "Which of the following is a popular CSS preprocessor?",
+      "options": ["Sass", "Less", "Stylus", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the CSS `opacity` property used for?",
+      "options": [
+        "To set the transparency of an element.",
+        "To create rounded corners.",
+        "To add shadows to elements.",
+        "To create gradients."
+      ],
+      "answer": "To set the transparency of an element."
+    },
+    {
+      "question": "What is the CSS `box-shadow` property used for?",
+      "options": [
+        "To add shadows to elements.",
+        "To create rounded corners.",
+        "To set the transparency of elements.",
+        "To create gradients."
+      ],
+      "answer": "To add shadows to elements."
+    },
+    {
+      "question": "What is the CSS `text-shadow` property used for?",
+      "options": [
+        "To add shadows to text.",
+        "To create rounded corners for text.",
+        "To set the transparency of text.",
+        "To create gradients for text."
+      ],
+      "answer": "To add shadows to text."
+    },
+    {
+      "question": "What is the CSS `text-transform` property used for?",
+      "options": [
+        "To change the capitalization of text.",
+        "To change the font size of text.",
+        "To change the font weight of text.",
+        "To change the font family of text."
+      ],
+      "answer": "To change the capitalization of text."
+    },
+    {
+      "question": "What is the CSS `text-decoration` property used for?",
+      "options": [
+        "To add decorations like underline, overline, and line-through to text.",
+        "To change the font size of text.",
+        "To change the font weight of text.",
+        "To change the font family of text."
+      ],
+      "answer": "To add decorations like underline, overline, and line-through to text."
+    }
+  ]
+}

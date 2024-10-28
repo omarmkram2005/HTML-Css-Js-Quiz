@@ -1,0 +1,335 @@
+{
+  "fileName": "CSS",
+  "questions": [
+    {
+      "question": "What does HTML stand for?",
+      "options": [
+        "HyperText Markup Language",
+        "High-Tech Multimedia Language",
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language"
+      ],
+      "answer": "HyperText Markup Language"
+    },
+    {
+      "question": "Which HTML tag is used to define the most important heading?",
+      "options": ["<h6>", "<h5>", "<h1>", "<h2>"],
+      "answer": "<h1>"
+    },
+    {
+      "question": "Which HTML tag is used to create a line break?",
+      "options": ["<br>", "<lb>", "<p>", "<hr>"],
+      "answer": "<br>"
+    },
+    {
+      "question": "Which HTML tag is used to define a paragraph?",
+      "options": ["<p>", "<br>", "<b>", "<i>"],
+      "answer": "<p>"
+    },
+    {
+      "question": "Which HTML tag is used to define a hyperlink?",
+      "options": ["<a>", "<link>", "<href>", "<url>"],
+      "answer": "<a>"
+    },
+    {
+      "question": "Which HTML attribute is used to specify the URL of a linked document?",
+      "options": ["src", "href", "link", "url"],
+      "answer": "href"
+    },
+    {
+      "question": "Which HTML tag is used to define an image?",
+      "options": ["<img>", "<picture>", "<figure>", "<image>"],
+      "answer": "<img>"
+    },
+    {
+      "question": "Which HTML attribute is used to specify the alternative text for an image?",
+      "options": ["alt", "src", "title", "caption"],
+      "answer": "alt"
+    },
+    {
+      "question": "Which HTML tag is used to define a table?",
+      "options": ["<table>", "<th>", "<td>", "<tr>"],
+      "answer": "<table>"
+    },
+    {
+      "question": "Which HTML tag is used to define a table row?",
+      "options": ["<tr>", "<td>", "<th>", "<table>"],
+      "answer": "<tr>"
+    },
+    {
+      "question": "Which HTML tag is used to define a table header?",
+      "options": ["<th>", "<td>", "<tr>", "<table>"],
+      "answer": "<th>"
+    },
+    {
+      "question": "Which HTML tag is used to define a table cell?",
+      "options": ["<td>", "<th>", "<tr>", "<table>"],
+      "answer": "<td>"
+    },
+    {
+      "question": "Which HTML tag is used to define a list?",
+      "options": ["<list>", "<ul>", "<ol>", "Both b and c"],
+      "answer": "Both b and c"
+    },
+    {
+      "question": "Which HTML tag is used to define an unordered list?",
+      "options": ["<ul>", "<ol>", "<li>", "<dl>"],
+      "answer": "<ul>"
+    },
+    {
+      "question": "Which HTML tag is used to define an ordered list?",
+      "options": ["<ol>", "<ul>", "<li>", "<dl>"],
+      "answer": "<ol>"
+    },
+    {
+      "question": "Which HTML tag is used to define a list item?",
+      "options": ["<li>", "<ul>", "<ol>", "<dl>"],
+      "answer": "<li>"
+    },
+    {
+      "question": "Which HTML element is used to define a block of text that is formatted as a code snippet?",
+      "options": ["<code>", "<pre>", "<script>", "<style>"],
+      "answer": "<pre>"
+    },
+    {
+      "question": "Which HTML element is used to define a section in a document?",
+      "options": ["<section>", "<div>", "<article>", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which HTML element is used to define a navigation section?",
+      "options": ["<nav>", "<header>", "<footer>", "<aside>"],
+      "answer": "<nav>"
+    },
+    {
+      "question": "Which HTML element is used to define a header for a document or section?",
+      "options": ["<header>", "<nav>", "<footer>", "<aside>"],
+      "answer": "<header>"
+    },
+    {
+      "question": "What is the purpose of the `<meta>` tag?",
+      "options": [
+        "To define a document header",
+        "To define a hyperlink",
+        "To provide metadata about an HTML document",
+        "To define a table"
+      ],
+      "answer": "To provide metadata about an HTML document"
+    },
+    {
+      "question": "Which HTML attribute is used to specify the character encoding of an HTML document?",
+      "options": ["charset", "encoding", "language", "type"],
+      "answer": "charset"
+    },
+    {
+      "question": "What is the purpose of the `<title>` tag?",
+      "options": [
+        "To define a heading",
+        "To define a paragraph",
+        "To define the title of an HTML document",
+        "To define a hyperlink"
+      ],
+      "answer": "To define the title of an HTML document"
+    },
+    {
+      "question": "Which HTML element is used to define a semantic container for a document's footer?",
+      "options": ["<footer>", "<header>", "<nav>", "<section>"],
+      "answer": "<footer>"
+    },
+    {
+      "question": "Which HTML element is used to define a semantic container for a document's header?",
+      "options": ["<footer>", "<header>", "<nav>", "<section>"],
+      "answer": "<header>"
+    },
+    {
+      "question": "Which HTML element is used to define a semantic container for a document's main content?",
+      "options": ["<footer>", "<header>", "<main>", "<section>"],
+      "answer": "<main>"
+    },
+    {
+      "question": "Which HTML element is used to define a semantic container for a document's aside content?",
+      "options": ["<footer>", "<header>", "<aside>", "<section>"],
+      "answer": "<aside>"
+    },
+    {
+      "question": "Which HTML element is used to define a semantic container for a document's navigation links?",
+      "options": ["<footer>", "<header>", "<nav>", "<section>"],
+      "answer": "<nav>"
+    },
+    {
+      "question": "Which HTML element is used to define a semantic container for a document's article?",
+      "options": ["<footer>", "<header>", "<article>", "<section>"],
+      "answer": "<article>"
+    },
+    {
+      "question": "Which HTML element is used to define a semantic container for a document's section?",
+      "options": ["<footer>", "<header>", "<section>", "<article>"],
+      "answer": "<section>"
+    },
+    {
+      "question": "What is the purpose of the `<hr>` tag?",
+      "options": [
+        "To define a horizontal line",
+        "To define a heading",
+        "To define a paragraph",
+        "To define a hyperlink"
+      ],
+      "answer": "To define a horizontal line"
+    },
+    {
+      "question": "Which HTML element is used to define a semantic grouping of content?",
+      "options": ["<div>", "<span>", "<p>", "<br>"],
+      "answer": "<div>"
+    },
+    {
+      "question": "Which HTML element is used to define an inline element?",
+      "options": ["<div>", "<span>", "<p>", "<br>"],
+      "answer": "<span>"
+    },
+    {
+      "question": "Which HTML attribute is used to specify the style of an element?",
+      "options": ["style", "class", "id", "title"],
+      "answer": "style"
+    },
+    {
+      "question": "Which HTML attribute is used to specify a class for an element?",
+      "options": ["style", "class", "id", "title"],
+      "answer": "class"
+    },
+    {
+      "question": "Which HTML attribute is used to specify a unique identifier for an element?",
+      "options": ["style", "class", "id", "title"],
+      "answer": "id"
+    },
+    {
+      "question": "What is the purpose of the `<form>` tag?",
+      "options": [
+        "To define a form for user input",
+        "To define a table",
+        "To define a list",
+        "To define a heading"
+      ],
+      "answer": "To define a form for user input"
+    },
+    {
+      "question": "Which HTML element is used to define a text input field?",
+      "options": ["<input>", "<textarea>", "<select>", "<button>"],
+      "answer": "<input>"
+    },
+    {
+      "question": "Which HTML element is used to define a multi-line text input field?",
+      "options": ["<input>", "<textarea>", "<select>", "<button>"],
+      "answer": "<textarea>"
+    },
+    {
+      "question": "Which HTML element is used to define a dropdown list?",
+      "options": ["<input>", "<textarea>", "<select>", "<button>"],
+      "answer": "<select>"
+    },
+    {
+      "question": "Which HTML element is used to define a button?",
+      "options": ["<input>", "<textarea>", "<select>", "<button>"],
+      "answer": "<button>"
+    },
+    {
+      "question": "Which HTML attribute is used to specify the type of an input field?",
+      "options": ["type", "name", "value", "placeholder"],
+      "answer": "type"
+    },
+    {
+      "question": "Which HTML attribute is used to specify the name of an input field?",
+      "options": ["type", "name", "value", "placeholder"],
+      "answer": "name"
+    },
+    {
+      "question": "Which HTML attribute is used to specify the default value of an input field?",
+      "options": ["type", "name", "value", "placeholder"],
+      "answer": "value"
+    },
+    {
+      "question": "Which HTML attribute is used to specify a hint text for an input field?",
+      "options": ["type", "name", "value", "placeholder"],
+      "answer": "placeholder"
+    },
+    {
+      "question": "Which HTML element is used to define a label for an input field?",
+      "options": ["<label>", "<input>", "<span>", "<p>"],
+      "answer": "<label>"
+    },
+    {
+      "question": "Which HTML attribute is used to associate a label with an input field?",
+      "options": ["for", "id", "class", "style"],
+      "answer": "for"
+    },
+    {
+      "question": "Which HTML element is used to define a fieldset?",
+      "options": ["<fieldset>", "<legend>", "<label>", "<input>"],
+      "answer": "<fieldset>"
+    },
+    {
+      "question": "Which HTML element is used to define a legend for a fieldset?",
+      "options": ["<fieldset>", "<legend>", "<label>", "<input>"],
+      "answer": "<legend>"
+    },
+    {
+      "question": "Which HTML element is used to define a semantic container for a document's footer?",
+      "options": ["<footer>", "<header>", "<nav>", "<section>"],
+      "answer": "<footer>"
+    },
+    {
+      "question": "Which HTML element is used to define a semantic container for a document's header?",
+      "options": ["<footer>", "<header>", "<nav>", "<section>"],
+      "answer": "<header>"
+    },
+    {
+      "question": "Which HTML element is used to define a semantic container for a document's main content?",
+      "options": ["<footer>", "<header>", "<main>", "<section>"],
+      "answer": "<main>"
+    },
+    {
+      "question": "Which HTML element is used to define a semantic container for a document's aside content?",
+      "options": ["<footer>", "<header>", "<aside>", "<section>"],
+      "answer": "<aside>"
+    },
+    {
+      "question": "Which HTML element is used to define a semantic container for a document's navigation links?",
+      "options": ["<footer>", "<header>", "<nav>", "<section>"],
+      "answer": "<nav>"
+    },
+    {
+      "question": "Which HTML element is used to define a semantic container for a document's article?",
+      "options": ["<footer>", "<header>", "<article>", "<section>"],
+      "answer": "<article>"
+    },
+    {
+      "question": "Which HTML element is used to define a semantic container for a document's section?",
+      "options": ["<footer>", "<header>", "<section>", "<article>"],
+      "answer": "<section>"
+    },
+    {
+      "question": "What is the purpose of the `<hr>` tag?",
+      "options": [
+        "To define a horizontal line",
+        "To define a heading",
+        "To define a paragraph",
+        "To define a hyperlink"
+      ],
+      "answer": "To define a horizontal line"
+    },
+    {
+      "question": "Which HTML element is used to define a semantic grouping of content?",
+      "options": ["<div>", "<span>", "<p>", "<br>"],
+      "answer": "<div>"
+    },
+    {
+      "question": "Which HTML element is used to define an inline element?",
+      "options": ["<div>", "<span>", "<p>", "<br>"],
+      "answer": "<span>"
+    },
+    {
+      "question": "Which HTML attribute is used to specify the style of an element?",
+      "options": ["style", "class", "id", "title"],
+      "answer": "style"
+    }
+  ]
+}

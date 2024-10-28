@@ -1,0 +1,233 @@
+* {
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(23, 1, 71);
+  font-family: "Cairo", sans-serif;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.container {
+  margin: 10px auto;
+  background-color: rgb(86, 24, 219);
+  padding: 15px;
+  box-shadow: 0 0 50px 0px#7066e0;
+  max-width: 700px;
+}
+.answers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.answers > div {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  font-size: calc(2vw - 10px);
+  padding: 9px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 4, 128);
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  cursor: pointer;
+}
+.answers > div:hover {
+  background-color: #9dc4e8;
+  color: black;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.active {
+  background-color: rgb(0, 4, 128);
+  padding: 0 10px;
+}
+label {
+  max-width: 300px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.timer {
+  background-color: rgb(15, 20, 177);
+  width: 70px;
+  text-align: center;
+  margin: 15px auto;
+}
+.timeUp {
+  font-weight: bold;
+  color: red;
+}
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(71, 18, 186);
+  padding: 20px;
+}
+@media (max-width: 695px) {
+  .main {
+    height: 130vh;
+  }
+}
+
+@media (max-width: 495px) {
+  .main {
+    height: 170vh;
+  }
+  .answers > div {
+    font-size: 2vw;
+  }
+}
+.main h3 {
+  font-size: 35px;
+  text-align: center;
+  margin: 25px auto;
+}
+.main .sPARENT {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.main .sPARENT div {
+  flex: 1;
+  min-width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 0 20px 1px black;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  cursor: pointer;
+}
+.main .sPARENT div:hover {
+  background-color: rgba(255, 255, 255, 0.311);
+  transform: translateY(-15px);
+  -webkit-transform: translateY(-15px);
+  -moz-transform: translateY(-15px);
+  -ms-transform: translateY(-15px);
+  -o-transform: translateY(-15px);
+}
+.main .sPARENT .choosed {
+  background-color: rgba(255, 255, 255, 0.311);
+  transform: translateY(-15px);
+  -webkit-transform: translateY(-15px);
+  -moz-transform: translateY(-15px);
+  -ms-transform: translateY(-15px);
+  -o-transform: translateY(-15px);
+}
+.main .sPARENT div i {
+  font-size: 80px;
+}
+.main .sPARENT div span {
+  position: absolute;
+  bottom: 12px;
+}
+#start {
+  padding: 10px 70px;
+  background-color: rgb(115, 26, 250);
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 150px auto 0;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+#start:hover {
+  background-color: rgb(47, 54, 187);
+}
+select {
+  display: block;
+  margin: 30px auto 0;
+  background-color: rgb(122, 7, 189);
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+option {
+  outline: none;
+  border: none;
+  padding: 100px;
+}
+option:hover {
+  background-color: #ddd;
+}
+.choosed i {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.sJS.choosed i {
+  color: #f5dd45;
+  z-index: 1;
+  position: relative;
+}
+.sCSS.choosed i {
+  color: #2b4ed9;
+  z-index: 1;
+  position: relative;
+}
+.sHTML.choosed i {
+  color: #d94c29;
+  z-index: 1;
+  position: relative;
+}
+
+.sHTML.choosed i::after,
+.sCSS.choosed i::after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 65%;
+  height: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.sJS.choosed i::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  width: 80%;
+  height: 80%;
+  top: 6px;
+  left: 10px;
+  z-index: -1;
+}
